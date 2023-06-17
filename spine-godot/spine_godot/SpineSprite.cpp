@@ -48,9 +48,7 @@
 #include "scene/gui/control.h"
 #include "scene/main/viewport.h"
 
-#if TOOLS_ENABLED
 #include "editor/editor_plugin.h"
-#endif
 
 Ref<CanvasItemMaterial> SpineSprite::default_materials[4] = {};
 static int sprite_count = 0;
