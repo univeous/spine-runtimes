@@ -20,9 +20,9 @@ dev=${2%/}
 pushd ..
 rm -rf godot
 git clone --depth 1 https://github.com/godotengine/godot.git -b $branch
-pushd godot
+cd godot
 git checkout a2575cba4
-pushd ..
+cd ..
 if [ $dev = "true" ]; then
 	cp -r .idea godot
 	cp build/custom.py godot
