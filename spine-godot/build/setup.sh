@@ -19,7 +19,7 @@ dev=${2%/}
 
 pushd ..
 rm -rf godot
-git clone --depth 1 https://github.com/godotengine/godot.git -b $branch
+git clone https://github.com/godotengine/godot.git -b $branch
 cd godot
 git checkout a2575cba4
 cd ..
