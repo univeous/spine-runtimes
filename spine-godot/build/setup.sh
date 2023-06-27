@@ -21,7 +21,7 @@ pushd ..
 rm -rf godot
 git clone https://github.com/godotengine/godot.git -b $branch
 cd godot
-git checkout ada712e06a471da2a2f4646237830bbd7980c114
+git checkout 1f9e540f14edbf2d496a1421f8d37e5b483c4c53
 cd ..
 if [ $dev = "true" ]; then
 	cp -r .idea godot
